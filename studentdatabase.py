@@ -1,6 +1,6 @@
 import streamlit as st
 import sqlite3
-st.title("Student Database")
+st.title(" My Student Database")
 
 #connect to database
 conn=sqlite3.connect("students.db")
